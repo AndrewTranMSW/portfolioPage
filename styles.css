@@ -1,3 +1,44 @@
 * {
-    background-color:seashell;
+    background-color:rgb(119, 64, 25);
+}
+
+.hero {
+    display: flex;
+    background-image: url("./assets/resized.png");
+    height: 200px;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+#aboutSection {
+    display: flex;
+}
+
+#about {
+    justify-content: end;
+}
+
+#firstProject {
+    background-image: url(./assets/anime.jpeg);
+    min-height: 30vh;
+    min-width: 30vw;
+}
+
+#secondProject {
+    background-image: url(./assets/weather.jpg);
+    min-height: 20vh;
+}
+
+#thirdProject {
+    background-image: url(./assets/geometric-1732847__340.jpg);
+    min-height: 20vh;
+}
+#fourthProject {
+    background-image: url(./assets/code.jpg);
+    min-height: 20vh;
+}
+
+#fifthProject {
+    background-image: url(./assets/globecode.jpg);
+    min-height: 20vh;
 }
