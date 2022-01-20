@@ -1,5 +1,5 @@
 * {
-    background-color:rgb(119, 64, 25);
+    background-color: #8FBC8F;
 }
 
 .hero {
@@ -45,4 +45,24 @@
 
 .projectCard:hover {
     cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
+
+.anime-card-text {
+    text-align: center;
+    background: slategray;
+    opacity: 0.9;
+    max-width: 40%;
+    color: white;
+    position: relative;
+    top: 250px;
+}
+
+#githubText {
+    text-decoration: none;
+}
+
+#emailText {
+    text-decoration: none;
+}
+
