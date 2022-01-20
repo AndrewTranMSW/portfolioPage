@@ -42,3 +42,7 @@
     background-image: url(./assets/globecode.jpg);
     min-height: 20vh;
 }
+
+.projectCard:hover {
+    cursor: pointer;
+}
